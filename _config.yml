@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ----
 # Site
 
@@ -53,7 +52,6 @@ _comments:
   longitude: Coordinates for the center marker on the map.
   zoom: The zoom level for the map.
   timezone: The timezone the event dates are listed in
-=======
 ---
 title: Whincups.Github.Io Web
 timezone: UTC
@@ -64,4 +62,3 @@ collections:
   uploads:
     title: Uploads
     output: true
->>>>>>> ba754bb98546780371b1d61628eb9a062c0bfa2d

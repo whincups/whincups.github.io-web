@@ -1,0 +1,54 @@
+# ----
+# Site
+
+title: Lady Whincups
+url: "https://ladywhincups.com"
+baseurl:
+google_analytics_key:
+google_maps_javascript_api_key:
+timezone: Etc/UTC
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: Event marketing template for Jekyll.
+author:
+  name:
+  email:
+  twitter: # twitter username without the @ symbol
+social:
+  name: Malt Template
+  links:
+    - https://github.com/CloudCannon/malt-jekyll-template
+
+# -----
+# Build
+
+permalink: pretty
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: page
+
+# -----------
+# CloudCannon
+
+_comments:
+  background_image: Image shown behind the content.
+  map: Update the map location and display settings.
+  latitude: Coordinates for the center marker on the map.
+  longitude: Coordinates for the center marker on the map.
+  zoom: The zoom level for the map.
+  timezone: The timezone the event dates are listed in

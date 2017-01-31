@@ -1,0 +1,92 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #4c5269;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-width: 380px;
+}
+
+html,
+textarea,
+input {
+	font-family: 'Quattrocento', sans-serif;
+}
+
+body {
+	max-width: 1024px;
+	margin: 0px auto;
+	text-shadow: 1px 1px 1px rgba(64, 64, 64, 0.5);
+	color: #fff;
+	min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+.dates {
+	text-align: center;
+}
+
+h1.logo {
+    text-align: center;
+    
+    @media (min-width: $desktop) {
+    text-align: left;
+    }
+}
+
+p {
+	font-size: 1.2em;
+    @media (min-width: $desktop) {
+    text-align: left;
+    }
+}
+
+h1 {
+	font-size: 3.5em;
+	margin: 0;
+}
+
+h2 {
+	font-size: 3em;
+	margin-bottom: 0;
+}
+
+h3 {
+	margin: 100px 0 20px 0;
+	font-size: 2.5em;
+}
+
+address {
+	margin: 0;
+
+	a svg {
+		fill: #ffacac;
+	}
+}
+
+a {
+	color: #fffbeb;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+
+	svg {
+		fill: #fffbeb;
+		position: relative;
+		top: 6px;
+		width: 20px;
+	}
+}
+
+.is-centre {
+    text-align: center;
+}

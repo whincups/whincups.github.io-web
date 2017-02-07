@@ -13,7 +13,7 @@
 		overflow-x: hidden;
 
 		> .content {
-			width: 45em;
+			width: 65em;
 			max-width: calc(100% - 4em);
 			margin: 0 auto;
 
@@ -40,7 +40,7 @@
 			> .content {
 				@include vendor('transition', 'opacity #{_duration(fade-in)} ease');
 				@include vendor('transform', 'translateZ(0)');
-				opacity: 1.0;
+				opacity: 1;
 				margin: 0;
 			}
 
@@ -119,6 +119,9 @@
 
 				&.down {
 					background-image: url('images/dark-arrow.svg');
+                    background-size: 50%;
+                    opacity: 0.25;
+                    filter: alpha(opacity=25); /* For IE8 and earlier */
 				}
 			}
 		}
@@ -130,7 +133,7 @@
 		@include breakpoint(xxlarge) {
 			&.style2 {
 				.content {
-					width: 40%;
+					width: 25%;
 				}
 			}
 		}
@@ -138,7 +141,7 @@
 		@include breakpoint(large) {
 			&.style2 {
 				.content {
-					width: 50%;
+					width: 30%;
 				}
 			}
 		}
@@ -146,7 +149,7 @@
 		@include breakpoint(medium) {
 			&.style2 {
 				.content {
-					width: 60%;
+					width: 35%;
 				}
 			}
 		}
@@ -177,9 +180,9 @@
 				}
 
 				.content {
-					width: 100%;
+					width: 45%;
 					max-width: 100%;
-					text-align: center;
+					text-align: left;
 					@include vendor('transform', 'none');
 				}
 			}

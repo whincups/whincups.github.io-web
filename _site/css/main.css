@@ -413,8 +413,8 @@ p, ul, ol, dl, table {
 /* Box */
 .box {
   background: #ffffff;
-  opacity: 0.2;
-  filter: alpha(opacity=20);
+  opacity: 0.3;
+  filter: alpha(opacity=30);
   /* For IE8 and earlier */
   color: #39454b;
   padding: 2em;
@@ -768,9 +768,7 @@ table {
   -webkit-box-sizing: content-box;
   -ms-box-sizing: content-box;
   box-sizing: content-box;
-  background: #fff;
-  padding-bottom: 3em;
-  box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15); }
+  padding-bottom: 3em; }
   .poptrox-popup .loader {
     position: absolute;
     top: 50%;

@@ -99,7 +99,7 @@
 					overlayColor: '#1f2328',
 					overlayOpacity: 0.65,
 					usePopupDefaultStyling: false,
-					usePopupCaption: false,
+					usePopupCaption: true,
 					usePopupNav: true,
                     popupPadding: 0
 				});

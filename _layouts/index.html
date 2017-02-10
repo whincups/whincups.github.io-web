@@ -1,69 +1,7 @@
-<!DOCTYPE html>
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="generator" content="Jekyll v3.3.1">
-		
-			<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="/css/main.css" />
-		
-		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
-		
-<!-- old css		
-
-		<script src="https://use.fontawesome.com/8b62e57f16.js"></script>
-		<link rel="stylesheet" href="/css/jquery.fancybox.css">
-		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
-		<link rel="icon" type="image/png" href="/images/favicon.png">
-		-->
-
-
-		<!-- Begin Jekyll SEO tag v2.1.0 -->
-<title>Lady Whincups flowers - Lady Whincups</title>
-<meta property="og:title" content="Lady Whincups flowers" />
-<meta name="description" content="A fun filled day with friends and beer." />
-<meta property="og:description" content="A fun filled day with friends and beer." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="Lady Whincups" />
-<script type="application/ld+json">
-{"@context": "http://schema.org",
-"@type": "WebSite",
-"name": "Malt Template",
-"headline": "Lady Whincups flowers",
-"description": "A fun filled day with friends and beer.",
-"publisher": {"@type": "Organization",
-"logo": {"@type": "ImageObject",
-"url": "http://localhost:4000/siteicon.png"}},
-"sameAs": ["https://github.com/CloudCannon/malt-jekyll-template"],
-"url": "http://localhost:4000/"}</script>
-<!-- End Jekyll SEO tag -->
-
-
-		
-	</head>
-
-	<body>
-	
-		<!-- Header -->
-			<header id="header">
-				<h1>Lady Whincups</h1>
-				<nav>
-					<ul>
-						<li><a href="#intro">Intro</a></li>
-						<li><a href="#one">Flowers</a></li>
-						<li><a href="#two">How to Buy</a></li>
-						<li><a href="#work">Inspiration</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav>
-			</header>        
-        					
-			<!-- Intro -->
+---
+layout: default
+---
+	<!-- Intro -->
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content">
 					<header class="logo-section">
@@ -120,15 +58,9 @@
 
 					<!-- Gallery  -->
 <div class="grid gallery">
-	
-		<div class="grid-item"><a class="" rel="group" href="/images/tulips.jpg"><img src="/images/tulips.jpg" title="Tulips" alt="Tulips"/></a></div>
-	
-		<div class="grid-item"><a class="" rel="group" href="/images/flower-bowl.jpg"><img src="/images/flower-bowl.jpg" title="Flower Bowl" alt="Flower Bowl"/></a></div>
-	
-		<div class="grid-item"><a class="" rel="group" href="/images/sunflower-field.jpg"><img src="/images/sunflower-field.jpg" title="Sunflowers in a field" alt="Sunflowers in a field"/></a></div>
-	
-		<div class="grid-item"><a class="" rel="group" href="/images/flowers.jpg"><img src="/images/flowers.jpg" title="Flowers" alt="Flowers"/></a></div>
-	
+	{% for photo in page.photos %}
+		<div class="grid-item"><a class="" rel="group" href="{% include relative-src.html src=photo.image %}"><img src="{% include relative-src.html src=photo.image %}" title="{{ photo.title }}" alt="{{ photo.title }}"/></a></div>
+	{% endfor %}
 </div>
 
 				</div>
@@ -180,16 +112,3 @@
 					</ul>
 
 			</footer>
-
-		<!-- Scripts -->
-			<script src="/js/jquery.min.js"></script>
-			<script src="/js/jquery.poptrox.min.js"></script>
-			<script src="/js/jquery.scrolly.min.js"></script>
-			<script src="/js/jquery.scrollex.min.js"></script>
-			<script src="/js/skel.min.js"></script>
-			<script src="/js/util.js"></script>
-			<script src="/js/masonry.min.js"></script>
-			<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
-			<script src="/js/main.js"></script>
-	</body>
-</html>

@@ -1,6 +1,6 @@
 ---
-layout: index
 title: Lady Whincups flowers
+layout: index
 start_datetime: 2016-11-10 09:00:00 Z
 end_datetime: 2016-11-10 18:00:00 Z
 timezone: GMT
@@ -21,3 +21,4 @@ photos:
 - image: "/images/flowers.jpg"
   title: Flowers
 ---
+

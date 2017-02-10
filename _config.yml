@@ -18,14 +18,15 @@ baseurl:
 google_analytics_key: 
 google_maps_javascript_api_key: 
 logo: "/siteicon.png"
-description: An English Flower Farm growing and selling beautiful seasonal flowers, located in the Alde Valley.
+description: An English Flower Farm growing and selling beautiful seasonal flowers,
+  located in the Alde Valley.
 author:
   name: 
   email: 
   twitter: 
-  facebook:
-  pinterest:
-  instagram:
+  facebook: 
+  pinterest: 
+  instagram: 
 permalink: pretty
 gems:
 - jekyll-sitemap

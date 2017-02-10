@@ -1,9 +1,8 @@
 ---
 title: Lady Whincups flowers
-description: An English Flower Farm growing and selling beautiful seasonal flowers, located in the Alde Valley.
+description: A fun filled day with friends and beer.
 layout: index
 timezone: GMT
-description: A fun filled day with friends and beer.
 background_image: "/images/background.jpg"
 map:
   address: Rendham, Suffolk, IP17 2AE

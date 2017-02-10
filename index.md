@@ -1,6 +1,5 @@
 ---
 title: Lady Whincups flowers
-<<<<<<< HEAD
 description: An English Flower Farm growing and selling beautiful seasonal flowers, located in the Alde Valley.
 layout: index
 timezone: GMT

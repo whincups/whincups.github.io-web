@@ -8,7 +8,12 @@ layout: default
 					<header class="logo-section">
 						<p><img src="images/logo.png" class="logo" alt="company logo"> </p>
 					</header>
-					<p>An English Flower Farm growing and selling beautiful seasonal flowers, located in the Alde Valley, close to the Suffolk Heritage Coast.</p>
+					{% for page in site.pages %}
+      {% if page.tags contains 'intro' %}
+      {{ page.content | markdownify }}
+      {% endif %}
+      {% endfor %}
+    </div>
 					<footer class="intro">
 					<a href="#one" class="button style2 down">More.</a></footer>
 					
@@ -21,13 +26,12 @@ layout: default
 					<header>
 						<h2>Flowers</h2>
 					</header>
-					  <p>
-       Lady Whincups Flower Farm organically grows and sells flowers that are both beautiful to look at, and also heavily scented.</p>
-
-<p>In 2017 we will be growing a wide range of seasonal flowers that represent our passion for quality British Grown Flowers.</p>
-
-<p>Our Flowers will be hand picked daily, to ensure that our customers get vibrant colour, heavy natural scent, and long vase life.
-      </p>
+					  {% for page in site.pages %}
+      {% if page.tags contains 'flowers' %}
+      {{ page.content | markdownify }}
+      {% endif %}
+      {% endfor %}
+    </div>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
@@ -38,13 +42,12 @@ layout: default
 					<header>
 						<h2>How to Buy</h2>
 					</header>
-					<p>Our flowers can be bought at these locations –</p>
-					<ul>
-                        <li><strong>Lady Whincups</strong>, Rendham, Suffolk, IP17 2AE</li>
-                        <li><strong>Juniper Barn</strong>, Rendham, IP17 2AZ</li>
-                        <li><strong>A Florist</strong>, Woodbridge</li>
-                        <li><strong>Jame Pop Up Florist</strong>, Suffolk</li>
-                    </ul>
+					{% for page in site.pages %}
+      {% if page.tags contains 'buy' %}
+      {{ page.content | markdownify }}
+      {% endif %}
+      {% endfor %}
+    </div>
 				</div>
 				<a href="#work" class="button style2 down anchored">Next</a>
 			</section>		

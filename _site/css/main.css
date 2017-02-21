@@ -1427,10 +1427,11 @@ body {
     .main > .content {
       max-width: calc(100% - 1.5em); } }
 
-/* Footer */
-footer.intro {
-  text-align: left; }
+a.intro.button.style2.down {
+  text-align: left;
+  display: block; }
 
+/* Footer */
 #footer {
   position: relative;
   height: 5em;

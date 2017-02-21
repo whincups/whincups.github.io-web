@@ -1,6 +1,6 @@
 ---
 title: Lady Whincups
-timezone: Etc/UTC
+timezone: UTC
 collections:
   posts:
     title: Posts

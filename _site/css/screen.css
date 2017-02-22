@@ -1008,7 +1008,7 @@ form {
     height: 200px;
     resize: none; }
   form input[type="submit"] {
-    background: #0cbf4f;
+    background-color: #0cbf4f;
     color: #fff;
     font-size: 1em;
     font-weight: normal;

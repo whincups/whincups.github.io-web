@@ -7,6 +7,9 @@
 <loc>http://localhost:4000/buy/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/contact-success.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/flowers/</loc>
 </url>
 <url>

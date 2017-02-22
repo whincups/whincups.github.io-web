@@ -13,7 +13,7 @@ layout: default
       {{ page.content | markdownify }}
       {% endif %}
       {% endfor %}
-      <a href="#one" class="intro button style2 down">More.</a></footer>
+      <footer><a href="#one" class="intro button style2 down">More.</a></footer>
     </div>
 					
 				</div>
@@ -84,13 +84,16 @@ layout: default
 						<p>If you are in Suffolk please stop by to see what fresh blooms we have, we welcome all enquiries / visitors.</p>
 					</header>
 					<div class="box">
-						<form method="post" action="#">
-							<div class="field half first"><input type="text" name="name" placeholder="Name" /></div>
+						<form method="post" action="https://formspree.io/hello@ladywhincups.com">
+							<div class="field half first"><input type="text" name="_replyto" placeholder="Name" /></div>
 							<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
 							<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
 							<ul class="actions">
 								<li><input type="submit" value="Send Message" /></li>
 							</ul>
+							<input type="hidden" name="_next" value="{{ site.baseurl }}/contact-success.html" />
+							<input type="hidden" name="_format" value="plain" />
+							<input type="text" name="_gotcha" style="display: none;">
 						</form>
 					</div>
 				</div>
@@ -101,12 +104,10 @@ layout: default
 
 				<!-- Icons -->
 					<ul class="actions">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+						<li><a href="{{ site.twitter }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="{{ site.facebook }}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="{{ site.instagram }}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="{{ site.pinterest }}" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
 					</ul>
 
 				<!-- Menu -->

@@ -17,8 +17,7 @@ defaults:
 url: https://ladywhincups.com
 enforce_ssl: https://ladywhincups.com
 baseurl: 
-google_analytics_key: 
-google_maps_javascript_api_key: 
+google_analytics_key:  
 logo: "/siteicon.png"
 description: An English Flower Farm growing and selling beautiful seasonal flowers,
   located in the Alde Valley.

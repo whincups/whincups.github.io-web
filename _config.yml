@@ -23,12 +23,12 @@ logo: "/siteicon.png"
 description: An English Flower Farm growing and selling beautiful seasonal flowers,
   located in the Alde Valley.
 author:
-  name: 
-  email: 
-  twitter: 
-  facebook: 
-  pinterest: 
-  instagram: 
+  name: Jenny Madden
+  email: hello@ladywhincups.com
+  twitter: https://twitter.com/JennyMaddenLW
+  facebook: https://www.facebook.com/Lady-Whincups-472378562953894/
+  pinterest: https://uk.pinterest.com/18884909ec5d5b8/
+  instagram: https://www.instagram.com/ladywhincups/
 permalink: pretty
 gems:
 - jekyll-sitemap

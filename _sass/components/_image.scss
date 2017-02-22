@@ -7,7 +7,10 @@
 /* Image */
 
 .logo {
-    width: 50%;
+    width: 75%;
+    @include breakpoint(small) {
+    width: 100%;
+    }
 }
 
 	.image {

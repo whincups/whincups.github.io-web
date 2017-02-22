@@ -39,19 +39,22 @@
 	
 		<!-- Header -->
 			<header id="header">
-				<h1>Lady Whincups</h1>
-				<nav>
-					<ul>
-						<li><a href="#intro">Intro</a></li>
-						<li><a href="#one">Flowers</a></li>
-						<li><a href="#two">How to Buy</a></li>
-						<li><a href="#work">Inspiration</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav>
-			</header>        
+                <h1><a href="{{ site.url }}">Lady Whincups</a></h1>
+			</header>  
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header class="logo-section">
+						<p><img src="images/logo.png" class="logo" alt="company logo"> </p>
+					</header>
+      <p class="is-large">{{ page.title }}</p>
+      
+      {{ content }}
+
+      <footer><p>
+    <a href="{{ site.url }}">Return to the main site</a>
+</p></footer>
+    </div>    
         					
-		{{ content }}
 
 		<!-- Scripts -->
 			<script src="{{ site.baseurl }}/js/jquery.min.js"></script>

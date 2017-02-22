@@ -1,0 +1,117 @@
+---
+layout: default
+---
+
+	<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header class="logo-section">
+						<p><img src="images/logo.png" class="logo" alt="company logo"> </p>
+					</header>
+					{% for page in site.pages %}
+      {% if page.tags contains 'intro' %}
+      {{ page.content | markdownify }}
+      {% endif %}
+      {% endfor %}
+      <footer><a href="#one" class="intro button style2 down">More.</a></footer>
+    </div>
+					
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Flowers</h2>
+					</header>
+					  {% for page in site.pages %}
+      {% if page.tags contains 'flowers' %}
+      {{ page.content | markdownify }}
+      {% endif %}
+      {% endfor %}
+    </div>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>How to Buy</h2>
+					</header>
+					{% for page in site.pages %}
+      {% if page.tags contains 'buy' %}
+      {{ page.content | markdownify }}
+      {% endif %}
+      {% endfor %}
+    </div>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>		
+
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>Inspiration</h2>
+						<p>Photos of flowers to inspire your creativity.</p>
+					</header>
+
+					<!-- Gallery  -->
+<div class="grid gallery">
+	{% for photo in page.photos %}
+		<div class="grid-item"><a class="" rel="group" href="{% include relative-src.html src=photo.image %}"><img src="{% include relative-src.html src=photo.image %}" title="{{ photo.title }}" alt="{{ photo.title }}"/></a></div>
+	{% endfor %}
+</div>
+
+				</div>
+				
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Say Hello.</h2>
+						<p>Please direct all enquires to Jenny Madden –</p>
+						<ul>
+						    <li><a href="tel:07718701886"><strong>07718 701886</strong></a></li>
+						    <li><a href="mailto:jenny@ladywhincups.com"><strong>jenny@ladywhincups.com</strong></a></li>
+						</ul>
+
+						<p>If you are in Suffolk please stop by to see what fresh blooms we have, we welcome all enquiries / visitors.</p>
+					</header>
+					<div class="box">
+						<form method="post" action="https://formspree.io/hello@ladywhincups.com">
+							<div class="field half first"><input type="text" name="name" placeholder="Name" /></div>
+							<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
+							<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+							<input type="hidden" name="_next" value="{{ site.baseurl }}/contact-success.html" />
+							<input type="hidden" name="_format" value="plain" />
+						</form>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="actions">
+						<li><a href="{{ site.twitter }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="{{ site.facebook }}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="{{ site.instagram }}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="{{ site.pinterest }}" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; Lady Whincups</li>
+					</ul>
+
+			</footer>

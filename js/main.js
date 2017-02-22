@@ -100,9 +100,8 @@
 					overlayOpacity: 0.65,
 					usePopupDefaultStyling: false,
 					usePopupCaption: true,
-					popupLoaderText: '',
-					windowMargin: 50,
-					usePopupNav: true
+					usePopupNav: true,
+                    popupPadding: 0
 				});
 
 				// Hack: Adjust margins when 'small' activates.
@@ -238,3 +237,10 @@
 
 })(jQuery);
 
+$(window).on("load", function () {
+	var msnry = new Masonry( ".grid", {
+		itemSelector: ".grid-item",
+		fitWidth: true
+	});
+
+});

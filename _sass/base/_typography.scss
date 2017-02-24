@@ -48,9 +48,9 @@
 	}
 
 	h2 {
-		font-size: 2.25em;
+		font-size: 1.25em;
 		line-height: 1.25em;
-		letter-spacing: -0.05em;
+		letter-spacing: 0em;
 	}
 
 	@include breakpoint(small) {

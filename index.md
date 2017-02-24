@@ -4,16 +4,12 @@ description: An English Flower Farm growing and selling beautiful seasonal flowe
   located in the Alde Valley.
 timezone: GMT/London
 photos:
-- image: "/images/tulips.jpg"
-  title: Tulips
-- image: "/images/flower-bowl.jpg"
-  title: Flower Bowl
-- image: "/images/sunflower-field.jpg"
-  title: Sunflowers in a field
-- image: "/images/flowers.jpg"
-  title: Flowers
 - image: "/uploads/flower.jpg"
   title: A pretty flower
+- title: 
+  image: "/uploads/DSC_0048__1487936398_151.225.139.50.jpg"
+- image: 
+  title: 
 layout: index
 ---
 

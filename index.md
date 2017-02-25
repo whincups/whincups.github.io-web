@@ -42,8 +42,10 @@ photos:
   title: gates
 - image: "/uploads/DSC_0557__1487939314_151.225.139.50.jpg"
   title: faded hellebore
-- image: 
-  title: 
+- image: "/uploads/DSC_0075__1488045083_151.225.139.50.jpg"
+  title: spring flowers
+- image: "/uploads/DSC_0026__1488045269_151.225.139.50.jpg"
+  title: iris reticulata Cantab End of Feb 2017
 layout: index
 ---
 

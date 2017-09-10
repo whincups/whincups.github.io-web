@@ -94,6 +94,7 @@ sitemap: false
 			@include vendor('transition', 'transform #{_duration(fade-in)} ease');
 			@include vendor('transform', 'translateY(0)');
 			position: relative;
+            opacity: 1;
 		}
 
 		&.inactive {

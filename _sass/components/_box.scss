@@ -8,8 +8,8 @@
 
 	.box {
 		background: _palette(bg);
-        opacity: 0.3;
-        filter: alpha(opacity=30); /* For IE8 and earlier */
+        opacity: 0.4;
+        filter: alpha(opacity=40); /* For IE8 and earlier */
 		color: _palette(fg);
 		padding: 2em;
         font-size: 85%;

@@ -29,7 +29,7 @@ h3,
   text-align: center; }
 
 h1.logo {
-  text-align: center; }
+  text-align: left; }
   @media (min-width: 768px) {
     h1.logo {
       text-align: left; } }
@@ -1008,7 +1008,7 @@ form {
     height: 200px;
     resize: none; }
   form input[type="submit"] {
-    background: #0cbf4f;
+    background-color: #0cbf4f;
     color: #fff;
     font-size: 1em;
     font-weight: normal;

@@ -4,8 +4,6 @@ description: An English Flower Farm growing and selling beautiful seasonal flowe
   located in the Alde Valley.
 timezone: GMT/London
 photos:
-- image: "/uploads/DSC_0048__1487936398_151.225.139.50-336675.jpg"
-  title: Pigs
 - image: "/uploads/DSC_0464__1487936819_151.225.139.50.jpg"
   title: Alde Valley
 - image: "/uploads/DSC_0539__1487936924_151.225.139.50.jpg"
@@ -36,12 +34,6 @@ photos:
   title: cone
 - image: "/uploads/DSC_0681__1487939930_151.225.139.50.jpg"
   title: snowdrops
-- image: "/uploads/DSC_0481__1487939433_151.225.139.50.jpg"
-  title: aide valley and Otis
-- image: "/uploads/DSC_0528__1487938917_151.225.139.50.jpg"
-  title: gates
-- image: "/uploads/DSC_0557__1487939314_151.225.139.50.jpg"
-  title: faded hellebore
 - image: "/uploads/DSC_0075__1488045083_151.225.139.50.jpg"
   title: spring flowers
 - image: "/uploads/DSC_0026__1488045269_151.225.139.50.jpg"

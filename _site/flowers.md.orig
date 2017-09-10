@@ -26,8 +26,8 @@
 <meta property="og:title" content="Flowers" />
 <meta name="description" content="An English Flower Farm growing and selling beautiful seasonal flowers, located in the Alde Valley." />
 <meta property="og:description" content="An English Flower Farm growing and selling beautiful seasonal flowers, located in the Alde Valley." />
-<link rel="canonical" href="http://localhost:4000/flowers/" />
-<meta property="og:url" content="http://localhost:4000/flowers/" />
+<link rel="canonical" href="http://localhost:4000/flowers.md.orig" />
+<meta property="og:url" content="http://localhost:4000/flowers.md.orig" />
 <meta property="og:site_name" content="Lady Whincups an English flower farm growing and selling beautiful seasonal flowers" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@" />
@@ -39,7 +39,7 @@
 "publisher": {"@type": "Organization",
 "logo": {"@type": "ImageObject",
 "url": "http://localhost:4000/siteicon.png"}},
-"url": "http://localhost:4000/flowers/"}</script>
+"url": "http://localhost:4000/flowers.md.orig"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -61,13 +61,12 @@
 				</nav>
 			</header>        
         					
-		<p>Lady Whincups Flower Farm organically grows and sells flowers that are both beautiful to look at, and also heavily scented.</p>
+		Lady Whincups Flower Farm organically grows and sells flowers that are both beautiful to look at, and also heavily scented.
 
-<p>In 2017 we will be growing a wide range of seasonal flowers that represent our passion for quality British Grown Flowers.</p>
+In 2017 we will be growing a wide range of seasonal flowers that represent our passion for quality British Grown Flowers.
 
-<p>Our Flowers will be hand picked daily, to ensure that our customers get vibrant colour, heavy natural scent, and long vase life.</p>
-
-
+Our Flowers will be hand picked daily, to ensure that our customers get vibrant colour, heavy natural scent, and long vase life.
+      
 
 <!--
 <p class="copyright">

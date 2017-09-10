@@ -413,8 +413,8 @@ p, ul, ol, dl, table {
 /* Box */
 .box {
   background: #ffffff;
-  opacity: 0.4;
-  filter: alpha(opacity=40);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
   /* For IE8 and earlier */
   color: #39454b;
   padding: 2em;

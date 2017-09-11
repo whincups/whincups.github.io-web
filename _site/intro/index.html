@@ -87,15 +87,13 @@
   <script defer src="js/jquery.flexslider.min.js"></script>
 
   <script type="text/javascript">
-    $(function(){
-      SyntaxHighlighter.all();
-    });
     $(window).load(function(){
       $('.flexslider').flexslider({
         animation: "slide",
         slideshow: false,
         controlNav: false
       });
+    setTimeout(function() { $('.flexslider').resize(); }, 500);
     });
   </script>
 	</body>

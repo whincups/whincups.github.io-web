@@ -1293,7 +1293,7 @@ body {
       margin-bottom: 0; }
   .main > .content-slides {
     width: 65em;
-    max-width: calc(100% - 0.5em);
+    max-width: 100%;
     margin: 0 auto; }
     .main > .content-slides > :last-child {
       margin-bottom: 0; }

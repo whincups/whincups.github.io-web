@@ -95,17 +95,14 @@ Call us and we can help you establish the look you wish to achieve.</p>
 			<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
 			<script src="/js/main.js"></script>
 	<!-- FlexSlider -->
-  <script defer src="js/jquery.flexslider.min.js"></script>
-
-  <script type="text/javascript">
-    $(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "slide",
-        slideshow: false,
-        controlNav: false
-      });
-    setTimeout(function() { $('.flexslider').resize(); }, 500);
-    });
-  </script>
+    <script src="/js/jquery.backstretch.js"></script>
+	<script>
+        $("#one").backstretch([
+            
+        ], {
+            fade: 750,
+            duration: 10000
+        });
+    </script>
 	</body>
 </html>

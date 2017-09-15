@@ -64,17 +64,16 @@
 			<!--[if lte IE 8]><script src="{{ site.baseurl }}/js/ie/respond.min.js"></script><![endif]-->
 			<script src="{{ site.baseurl }}/js/main.js"></script>
 	<!-- FlexSlider -->
-  <script defer src="{{ site.baseurl }}js/jquery.flexslider.min.js"></script>
-
-  <script type="text/javascript">
-    $(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "slide",
-        slideshow: false,
-        controlNav: false
-      });
-    setTimeout(function() { $('.flexslider').resize(); }, 500);
-    });
-  </script>
+    <script src="{{ site.baseurl }}/js/jquery.backstretch.js"></script>
+	<script>
+        $("#one").backstretch([
+            {% for photo in page.photos %}
+          "{{ photo.image }}",
+            {% endfor %}
+        ], {
+            fade: 750,
+            duration: 10000
+        });
+    </script>
 	</body>
 </html>

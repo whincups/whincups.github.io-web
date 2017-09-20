@@ -8,7 +8,7 @@
 		
 			<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="/css/main.css" />
-				<link rel="stylesheet" href="/css/flexslider.css" />
+				<link rel="stylesheet" href="/css/skippr.css" />
 		
 		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
@@ -46,7 +46,8 @@
 		
 	</head>
 
-	<body class="onload">
+	<body>
+
 	
 		<!-- Header -->
 			<header id="header">
@@ -87,15 +88,17 @@ Our Flowers will be hand picked daily, to ensure that our customers get vibrant 
 			<script src="/js/masonry.min.js"></script>
 			<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
 			<script src="/js/main.js"></script>
-	<!-- FlexSlider -->
-    <script src="/js/jquery.backstretch.js"></script>
-	<script>
-        $("#one").backstretch([
-            
-        ], {
-            fade: 750,
-            duration: 10000
-        });
-    </script>
+						<script src="/js/skippr.js"></script>
+			
+<script>
+            $(document).ready(function() {
+                $("#target").skippr({
+                    autoPlay: false,
+                    arrows: true
+                });
+            });
+
+        </script>
+
 	</body>
 </html>

@@ -1531,7 +1531,7 @@ a.intro.button.style2.down {
 
 /* Intro */
 #intro {
-  background: url("images/overlay.png"), url("../images/background.jpg");
+  background: url("images/overlay.png"), url("../images/background.jpeg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
@@ -1539,14 +1539,16 @@ a.intro.button.style2.down {
 
 /* One */
 #one {
-  background: url("images/overlay.png"), url("../images/rose.jpg");
+  background: url("images/overlay.png");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
-  background-position: top left, center center; }
+  background-position: top left, center center;
+  width: 100%;
+  height: 100%; }
 
 /* Two */
 #two {
-  background: url("images/overlay.png"), url("../images/gerba.jpg");
+  background: url("images/overlay.png"), url("../images/buy.jpeg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center; }

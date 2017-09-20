@@ -8,7 +8,7 @@
 		
 			<!--[if lte IE 8]><script src="{{ site.baseurl }}/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
-				<link rel="stylesheet" href="{{ site.baseurl }}/css/flexslider.css" />
+				<link rel="stylesheet" href="{{ site.baseurl }}/css/skippr.css" />
 		
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="{{ site.baseurl }}/css/ie9.css" /><![endif]-->
@@ -36,7 +36,8 @@
 		{% endif %}
 	</head>
 
-	<body class="onload">
+	<body>
+
 	
 		<!-- Header -->
 			<header id="header">
@@ -63,17 +64,17 @@
 			<script src="{{ site.baseurl }}/js/masonry.min.js"></script>
 			<!--[if lte IE 8]><script src="{{ site.baseurl }}/js/ie/respond.min.js"></script><![endif]-->
 			<script src="{{ site.baseurl }}/js/main.js"></script>
-	<!-- FlexSlider -->
-    <script src="{{ site.baseurl }}/js/jquery.backstretch.js"></script>
-	<script>
-        $("#one").backstretch([
-            {% for photo in page.photos %}
-          "{{ photo.image }}",
-            {% endfor %}
-        ], {
-            fade: 750,
-            duration: 10000
-        });
-    </script>
+						<script src="{{ site.baseurl }}/js/skippr.js"></script>
+			
+<script>
+            $(document).ready(function() {
+                $("#target").skippr({
+                    autoPlay: false,
+                    arrows: true
+                });
+            });
+
+        </script>
+
 	</body>
 </html>

@@ -20,18 +20,14 @@ layout: default
 			</section>
 
 		<!-- One -->
-			<section id="one" class="main style4 dark fullscreen">
-				<div class="content-slides">
+			<section id="one" class="main style4 dark ">
 
-      
-      <!-- flexslider -->
-<div class="flexslider">
-    <ul class="slides"> {% for photo in page.photos %}
-        <li class="sp-slide"> <img src="{{ photo.image }}" title="{{ photo.title }}" alt="{{ photo.title }}" /></li> {% endfor %} </ul>
-</div>
-    </div>
-				
-				<a href="#two" class="button style2 down anchored">Next</a>
+    <div id="target">
+     {% for photo in page.photos %}
+     <div style="background-image: url({{ photo.image }})"></div>
+      {% endfor %}
+	
+                </div>			<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
 
 		<!-- Two -->

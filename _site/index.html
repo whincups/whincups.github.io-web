@@ -8,7 +8,7 @@
 		
 			<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="/css/main.css" />
-				<link rel="stylesheet" href="/css/flexslider.css" />
+				<link rel="stylesheet" href="/css/skippr.css" />
 		
 		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
@@ -47,7 +47,8 @@
 		
 	</head>
 
-	<body class="onload">
+	<body>
+
 	
 		<!-- Header -->
 			<header id="header">
@@ -103,25 +104,28 @@
 			</section>
 
 		<!-- One -->
-			<section id="one" class="main style4 dark fullscreen">
-				<div class="content-slides">
+			<section id="one" class="main style4 dark ">
 
+    <div id="target">
+     
+     <div style="background-image: url(/uploads/flowers-1.jpeg)"></div>
       
-      <!-- flexslider -->
-<div class="flexslider">
-    <ul class="slides"> 
-        <li class="sp-slide"> <img src="/uploads/flowers-1.jpeg" title="flowers" alt="flowers" /></li> 
-        <li class="sp-slide"> <img src="/uploads/flowers-2.jpeg" title="flowers" alt="flowers" /></li> 
-        <li class="sp-slide"> <img src="/uploads/flowers-3.jpeg" title="flowers" alt="flowers" /></li> 
-        <li class="sp-slide"> <img src="/uploads/flowers-4.jpeg" title="flowers" alt="flowers" /></li> 
-        <li class="sp-slide"> <img src="/uploads/flowers-5.jpeg" title="flowers" alt="flowers" /></li> 
-        <li class="sp-slide"> <img src="/uploads/flowers-6.jpeg" title="flowers" alt="flowers" /></li> 
-        <li class="sp-slide"> <img src="/uploads/flowers-7.jpeg" title="flowers" alt="flowers" /></li> 
-        <li class="sp-slide"> <img src="/uploads/flowers-8.jpeg" title="flowers" alt="flowers" /></li>  </ul>
-</div>
-    </div>
-				
-				<a href="#two" class="button style2 down anchored">Next</a>
+     <div style="background-image: url(/uploads/flowers-2.jpeg)"></div>
+      
+     <div style="background-image: url(/uploads/flowers-3.jpeg)"></div>
+      
+     <div style="background-image: url(/uploads/flowers-4.jpeg)"></div>
+      
+     <div style="background-image: url(/uploads/flowers-5.jpeg)"></div>
+      
+     <div style="background-image: url(/uploads/flowers-6.jpeg)"></div>
+      
+     <div style="background-image: url(/uploads/flowers-7.jpeg)"></div>
+      
+     <div style="background-image: url(/uploads/flowers-8.jpeg)"></div>
+      
+	
+                </div>			<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
 
 		<!-- Two -->
@@ -231,31 +235,17 @@ Call us and we can help you establish the look you wish to achieve.</p>
 			<script src="/js/masonry.min.js"></script>
 			<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
 			<script src="/js/main.js"></script>
-	<!-- FlexSlider -->
-    <script src="/js/jquery.backstretch.js"></script>
-	<script>
-        $("#one").backstretch([
-            
-          "/uploads/flowers-1.jpeg",
-            
-          "/uploads/flowers-2.jpeg",
-            
-          "/uploads/flowers-3.jpeg",
-            
-          "/uploads/flowers-4.jpeg",
-            
-          "/uploads/flowers-5.jpeg",
-            
-          "/uploads/flowers-6.jpeg",
-            
-          "/uploads/flowers-7.jpeg",
-            
-          "/uploads/flowers-8.jpeg",
-            
-        ], {
-            fade: 750,
-            duration: 10000
-        });
-    </script>
+						<script src="/js/skippr.js"></script>
+			
+<script>
+            $(document).ready(function() {
+                $("#target").skippr({
+                    autoPlay: false,
+                    arrows: true
+                });
+            });
+
+        </script>
+
 	</body>
 </html>

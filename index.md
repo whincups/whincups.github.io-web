@@ -20,6 +20,10 @@ photos:
   title: flowers
 - image: "/uploads/flowers-8.jpeg"
   title: flowers
+- image: "/uploads/flowers-9.jpeg"
+  title: flowers
+- image: "/uploads/flowers-10.jpeg"
+  title: flowers
 layout: index
 ---
 

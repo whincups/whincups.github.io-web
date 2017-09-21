@@ -21,6 +21,16 @@
 				margin-bottom: 0;
 			}
 		}
+        
+        > .content-slides {
+			width: 65em;
+			max-width: 100%;
+			margin: 0 auto;
+
+			> :last-child {
+				margin-bottom: 0;
+			}
+		}
 
 		&.fullscreen {
 			min-height: 100%;
@@ -96,6 +106,29 @@
 
 			&.secondary {
 				background: _palette(bg-alt);
+			}
+		}
+        
+        		&.style4 {
+			@include vendor('align-items', 'center');
+			@include vendor('justify-content', 'center');
+			text-align: center;
+			padding:  0;
+
+			h2 {
+				font-size: 4.25em;
+				line-height: 1em;
+			}
+
+			> .content {
+				@include vendor('transition', 'opacity #{_duration(fade-in)} ease');
+				@include vendor('transform', 'translateZ(0)');
+				opacity: 1;
+				margin: 0;
+			}
+
+			&.inactive > .content {
+				opacity: 0;
 			}
 		}
 

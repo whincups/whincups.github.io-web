@@ -24,18 +24,6 @@ photos:
   title: flowers
 - image: "/uploads/flowers-10.jpeg"
   title: flowers
-- image: "/uploads/_DSC1881.jpeg"
-  title: flowers
-- image: "/uploads/_DSC1938.jpeg"
-  title: flowers
-- image: "/uploads/_DSC1939.jpeg"
-  title: flowers
-- image: "/uploads/_DSC1974.jpeg"
-  title: flowers
-- image: "/uploads/_DSC1983.jpeg"
-  title: flowers
-- image: "/uploads/_DSC2032.jpeg"
-  title: flowers
 layout: index
 ---
 

@@ -26,6 +26,16 @@ photos:
   title: flowers
 - image: "/uploads/_DSC1881-09ed29.jpeg"
   title: flowers
+- image: "/uploads/_DSC1938-9b9bfc.jpeg"
+  title: flowers
+- image: "/uploads/_DSC1939-d7e8e2.jpeg"
+  title: flowers
+- image: "/uploads/_DSC1974-403800.jpeg"
+  title: flowers
+- image: "/uploads/_DSC1983-c1c511.jpeg"
+  title: flowers
+- image: "/uploads/_DSC2032-9a1aba.jpeg"
+  title: flowers
 layout: index
 ---
 

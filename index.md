@@ -24,6 +24,8 @@ photos:
   title: flowers
 - image: "/uploads/flowers-10.jpeg"
   title: flowers
+- image: "/uploads/_DSC1881-09ed29.jpeg"
+  title: flowers
 layout: index
 ---
 

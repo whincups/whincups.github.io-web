@@ -24,7 +24,7 @@ photos:
   title: flowers
 - image: "/uploads/flowers-10.jpeg"
   title: flowers
-- image: "/uploads/_DSC1881-09ed29.jpeg"
+- image: "/uploads/flowers-11.jpeg"
   title: flowers
 - image: "/uploads/_DSC1938-9b9bfc.jpeg"
   title: flowers

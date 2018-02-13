@@ -24,17 +24,17 @@ photos:
   title: flowers
 - image: "/uploads/flowers-10.jpeg"
   title: flowers
-- image: "/uploads/_DSC1881-09ed29.jpeg"
+- image: "/uploads/flowers-11.jpeg"
   title: flowers
-- image: "/uploads/_DSC1938-9b9bfc.jpeg"
+- image: "/uploads/flowers-12.jpeg"
   title: flowers
-- image: "/uploads/_DSC1939-d7e8e2.jpeg"
+- image: "/uploads/flowers-13.jpeg"
   title: flowers
-- image: "/uploads/_DSC1974-403800.jpeg"
+- image: "/uploads/flowers-14.jpeg"
   title: flowers
-- image: "/uploads/_DSC1983-c1c511.jpeg"
+- image: "/uploads/flowers-15.jpeg"
   title: flowers
-- image: "/uploads/_DSC2032-9a1aba.jpeg"
+- image: "/uploads/flowers-16.jpeg"
   title: flowers
 layout: index
 ---

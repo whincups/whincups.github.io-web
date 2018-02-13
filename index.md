@@ -26,15 +26,9 @@ photos:
   title: flowers
 - image: "/uploads/flowers-11.jpeg"
   title: flowers
-- image: "/uploads/flowers-12.jpeg"
-  title: flowers
-- image: "/uploads/flowers-13.jpeg"
-  title: flowers
-- image: "/uploads/flowers-14.jpeg"
-  title: flowers
-- image: "/uploads/flowers-15.jpeg"
-  title: flowers
-- image: "/uploads/flowers-16.jpeg"
+- image: |-
+    /uploads/flowers-12
+    .jpeg
   title: flowers
 layout: index
 ---
